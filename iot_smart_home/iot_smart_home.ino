@@ -3,12 +3,12 @@
 #include <DHT.h>
 
 // WiFi credentials
-const char* ssid = "Tusiime George Trevour";
-const char* password = "gtusiime12";
+const char* ssid = "Your wifi network name";
+const char* password = "Your wifi password";
 
 // ThingSpeak settings
 unsigned long myChannelNumber = 2777711; // Replace with your channel ID
-const char* myWriteAPIKey = "CZVATI1OK2VGY2FS"; // Replace with your Write API Key
+const char* myWriteAPIKey = "Your api key"; // Replace with your Write API Key
 
 WiFiClient client;
 
